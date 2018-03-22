@@ -1,0 +1,8 @@
+Credentials cache: API:770E143E-29CE-45E9-9738-F0EE4DBAF6B3
+        Principal: wabousfi@42.FR
+
+  Issued                Expires               Principal
+Feb  5 22:33:44 2018  Feb 12 22:33:44 2018  krbtgt/42.FR@42.FR
+Feb  5 22:33:46 2018  Feb 12 22:33:44 2018  ldap/ldap-proxy.42.fr@42.FR
+Feb  5 22:33:46 2018  Feb 12 22:33:44 2018  HTTP/student-storage-1.42.fr@42.FR
+Feb  5 22:51:00 2018  Feb 12 22:33:44 2018  host/vgs-fn1.42.fr@42.FR
