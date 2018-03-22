@@ -1,0 +1,60 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e2r12p22.42.fr
+Darwin 16.7.0 x86_64
+$> date
+Fri Feb 16 19:30:51 CET 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/piscine-c-exam01/exam_20180216/wabousfi
+
+= Git history ==================================================================
+$> git -C /var/folders/yj/s0cdrm0n48qfj_5x4f9m2l4w0000gq/T/tmpoIK4ee/user log --pretty='%H - %an, %ad : %s'
+fd31b709cafe4026c1809e3fa24d3c208cce7884 - Exam 42, Fri Feb 16 19:30:37 2018 +0100 : pushstrcmp
+02f7cd78c6be941de7ac8571500e9b371ad6ca15 - Exam 42, Fri Feb 16 19:27:03 2018 +0100 : pushstrlen
+2fdfec5991d38b9844d447ed6899968f6c1d10e3 - Exam 42, Fri Feb 16 19:26:54 2018 +0100 : pushstrlen
+f6d341ed15668d6d18c22120dd7d9a93f25d38af - Exam 42, Fri Feb 16 18:33:07 2018 +0100 : premierpushexam01
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/yj/s0cdrm0n48qfj_5x4f9m2l4w0000gq/T/tmpoIK4ee/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  945 Feb 16 19:30 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Feb 16 19:30 aff_a
+drwxr-xr-x  3 deepthought  deepthought  102 Feb 16 19:30 ft_strcmp
+drwxr-xr-x  3 deepthought  deepthought  102 Feb 16 19:30 ft_strlen
+
+/var/folders/yj/s0cdrm0n48qfj_5x4f9m2l4w0000gq/T/tmpoIK4ee/user/aff_a:
+total 8
+-rw-r--r--  1 deepthought  deepthought  375 Feb 16 19:30 aff_a.c
+
+/var/folders/yj/s0cdrm0n48qfj_5x4f9m2l4w0000gq/T/tmpoIK4ee/user/ft_strcmp:
+total 8
+-rw-r--r--  1 deepthought  deepthought  129 Feb 16 19:30 ft_strcmp.c
+
+/var/folders/yj/s0cdrm0n48qfj_5x4f9m2l4w0000gq/T/tmpoIK4ee/user/ft_strlen:
+total 8
+-rw-r--r--  1 deepthought  deepthought  106 Feb 16 19:30 ft_strlen.c
+ 
+= ft_strcmp ====================================================================
+$> clang -Wextra -Wall -Werror main.c ft_strcmp.c -o user_exe 
+ft_strcmp.c:9:1: error: control may reach end of non-void function [-Werror,-Wreturn-type]
+}
+^
+1 error generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= Final grade: 0 ===============================================================

@@ -1,0 +1,101 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r4p12.42.fr
+Darwin 16.7.0 x86_64
+$> date
+Fri Mar  2 15:39:00 CET 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/piscine-c-exam-final/exam_20180302/wabousfi
+
+= Git history ==================================================================
+$> git -C /var/folders/nv/4jswzx8d2f1gc4_6dyhrb0xh0000gq/T/tmpSbF5tT/user log --pretty='%H - %an, %ad : %s'
+01fc3b2febdc80a5e5662df53b05e23f6a5ae73a - Exam 42, Fri Mar 2 15:38:51 2018 +0100 : conversionchar/int_bugu
+188aec7915fc62e2a36e055d3cb16aa3e7061614 - Exam 42, Fri Mar 2 14:54:14 2018 +0100 : level4fail
+154b4f54ea9c07803e7eed5049726f8a7a5f684f - Exam 42, Fri Mar 2 14:53:51 2018 +0100 : level4fail
+2216643ede9d9812cdcee8144e90922dabcc49c2 - Exam 42, Fri Mar 2 13:35:29 2018 +0100 : strrev
+c87d0ab8f82fdcf4286de661f93593219bdfb4f0 - Exam 42, Fri Mar 2 13:06:26 2018 +0100 : level2
+45b8294c354c3a9ac5d129b5022cabb4fe94c520 - Exam 42, Fri Mar 2 11:39:52 2018 +0100 : string_distance
+e1a8b54465ded1e8fb0fb0cae326c81c22f22b62 - Exam 42, Fri Mar 2 11:39:32 2018 +0100 : string_distance
+317cfaff6f4e02cecb7918d1653a63188b3a3853 - Exam 42, Fri Mar 2 11:37:56 2018 +0100 : string_distance
+10d3b6b1ba5053535889de129ec7ce3efb929e1c - Exam 42, Fri Mar 2 10:09:03 2018 +0100 : level0 8 point
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/nv/4jswzx8d2f1gc4_6dyhrb0xh0000gq/T/tmpSbF5tT/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  2353 Mar  2 15:39 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  2 15:39 ft_strrev
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  2 15:39 maff_revalpha
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  2 15:39 search_and_replace
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  2 15:39 str_capitalizer
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  2 15:39 string_distance_1
+drwxr-xr-x  3 deepthought  deepthought   102 Mar  2 15:39 tab_mult
+
+/var/folders/nv/4jswzx8d2f1gc4_6dyhrb0xh0000gq/T/tmpSbF5tT/user/ft_strrev:
+total 8
+-rw-r--r--  1 deepthought  deepthought  216 Mar  2 15:39 ft_strrev.c
+
+/var/folders/nv/4jswzx8d2f1gc4_6dyhrb0xh0000gq/T/tmpSbF5tT/user/maff_revalpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  100 Mar  2 15:39 maff_revalpha.c
+
+/var/folders/nv/4jswzx8d2f1gc4_6dyhrb0xh0000gq/T/tmpSbF5tT/user/search_and_replace:
+total 8
+-rw-r--r--  1 deepthought  deepthought  388 Mar  2 15:39 search_and_replace.c
+
+/var/folders/nv/4jswzx8d2f1gc4_6dyhrb0xh0000gq/T/tmpSbF5tT/user/str_capitalizer:
+total 8
+-rw-r--r--  1 deepthought  deepthought  873 Mar  2 15:39 str_capitalizer.c
+
+/var/folders/nv/4jswzx8d2f1gc4_6dyhrb0xh0000gq/T/tmpSbF5tT/user/string_distance_1:
+total 8
+-rw-r--r--  1 deepthought  deepthought  766 Mar  2 15:39 string_distance.c
+
+/var/folders/nv/4jswzx8d2f1gc4_6dyhrb0xh0000gq/T/tmpSbF5tT/user/tab_mult:
+total 8
+-rw-r--r--  1 deepthought  deepthought  594 Mar  2 15:39 tab_mult.c
+ 
+= tab_mult =====================================================================
+$> clang -Wextra -Wall -Werror tab_mult.c -o user_exe 
+tab_mult.c:12:10: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'char *' [-Werror,-Wint-conversion]
+                putstr(multip);
+                       ^~~~~~
+tab_mult.c:4:19: note: passing argument to parameter 'str' here
+void    putstr(char *str){int i=0;while(str[i]){putchar(str[i]);i++;}}
+                     ^
+tab_mult.c:17:10: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'char *' [-Werror,-Wint-conversion]
+                putstr(nb);
+                       ^~
+tab_mult.c:4:19: note: passing argument to parameter 'str' here
+void    putstr(char *str){int i=0;while(str[i]){putchar(str[i]);i++;}}
+                     ^
+tab_mult.c:21:10: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'char *' [-Werror,-Wint-conversion]
+                putstr(result);
+                       ^~~~~~
+tab_mult.c:4:19: note: passing argument to parameter 'str' here
+void    putstr(char *str){int i=0;while(str[i]){putchar(str[i]);i++;}}
+                     ^
+tab_mult.c:33:12: error: incompatible pointer to integer conversion passing 'char *' to parameter of type 'int' [-Werror,-Wint-conversion]
+                tab_mult(av[1]);
+                         ^~~~~
+tab_mult.c:6:19: note: passing argument to parameter 'nb' here
+void    tab_mult(int nb)
+                     ^
+4 errors generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= Final grade: 0 ===============================================================

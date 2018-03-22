@@ -1,0 +1,63 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r5p2.42.fr
+Darwin 16.7.0 x86_64
+$> date
+Fri Feb 23 19:17:53 CET 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/piscine-c-exam02/exam_20180223/wabousfi
+
+= Git history ==================================================================
+$> git -C /var/folders/1v/knhw3tqx4c33sw2v5w_1b3_00000gq/T/tmpJZ9d5A/user log --pretty='%H - %an, %ad : %s'
+47cf7f155494231734a523e53e1b387d63ed1ad4 - Exam 42, Fri Feb 23 19:17:44 2018 +0100 : fail
+91b95caab9d6ddf15e8d03b3be8d28b20ce1ae82 - Exam 42, Fri Feb 23 18:20:13 2018 +0100 : ftcountdown
+cd4b360455c5ad3503c64a3f95131f54851ec597 - Exam 42, Fri Feb 23 18:16:22 2018 +0100 : 1push quesitonnaire
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/1v/knhw3tqx4c33sw2v5w_1b3_00000gq/T/tmpJZ9d5A/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  706 Feb 23 19:17 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Feb 23 19:17 ft_countdown
+drwxr-xr-x  3 deepthought  deepthought  102 Feb 23 19:17 rotone
+drwxr-xr-x  3 deepthought  deepthought  102 Feb 23 19:17 survey
+
+/var/folders/1v/knhw3tqx4c33sw2v5w_1b3_00000gq/T/tmpJZ9d5A/user/ft_countdown:
+total 8
+-rw-r--r--  1 deepthought  deepthought  79 Feb 23 19:17 ft_countdown.c
+
+/var/folders/1v/knhw3tqx4c33sw2v5w_1b3_00000gq/T/tmpJZ9d5A/user/rotone:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1018 Feb 23 19:17 rotone.c
+
+/var/folders/1v/knhw3tqx4c33sw2v5w_1b3_00000gq/T/tmpJZ9d5A/user/survey:
+total 8
+-rw-r--r--  1 deepthought  deepthought  401 Feb 23 19:17 reponses
+ 
+= rotone =======================================================================
+$> clang -Wextra -Wall -Werror rotone.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./ab473g48nrxy9t63brgiubrm 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2018-02-23 19:17:56.000000000 +0100$
++++ test1.output	2018-02-23 19:17:56.000000000 +0100$
+@@ -0,0 +1 @@$
++$
+
+Diff KO :(
+Grade: 0
+
+= Final grade: 0 ===============================================================

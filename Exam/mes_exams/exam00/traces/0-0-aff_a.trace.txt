@@ -1,0 +1,72 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r11p21.42.fr
+Darwin 16.7.0 x86_64
+$> date
+Fri Feb 16 18:33:22 CET 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/piscine-c-exam01/exam_20180216/wabousfi
+
+= Git history ==================================================================
+$> git -C /var/folders/l3/sncb4m7s18z13kbz75xpwl600000gq/T/tmpqjjomz/user log --pretty='%H - %an, %ad : %s'
+f6d341ed15668d6d18c22120dd7d9a93f25d38af - Exam 42, Fri Feb 16 18:33:07 2018 +0100 : premierpushexam01
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/l3/sncb4m7s18z13kbz75xpwl600000gq/T/tmpqjjomz/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  240 Feb 16 18:33 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Feb 16 18:33 aff_a
+
+/var/folders/l3/sncb4m7s18z13kbz75xpwl600000gq/T/tmpqjjomz/user/aff_a:
+total 8
+-rw-r--r--  1 deepthought  deepthought  375 Feb 16 18:33 aff_a.c
+ 
+= aff_a ========================================================================
+$> clang -Wextra -Wall -Werror aff_a.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./un9u2mugc5re5wyghz42h2wr 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./bnm0dc9fc1p2nexr87l4x2dj "17" "23" "42"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./ii371suv6gogxtu8nk6eo2h9 "v8TNSa"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./o1a9nk5oh3gfdta39ot8baoj "afB5RyrdHb"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./s517ou19czzfrrnlfjq4u7hc "wzLx2It8Zr7Q39Um"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./2zt5bgeiuqduyn8xovzv61ot "CrVuBtkJ1Ynph"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

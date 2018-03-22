@@ -1,0 +1,97 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e3r10p8.42.fr
+Darwin 16.7.0 x86_64
+$> date
+Fri Feb 23 20:14:49 CET 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/piscine-c-exam02/exam_20180223/wabousfi
+
+= Git history ==================================================================
+$> git -C /var/folders/c8/3xm0w9px6lz0bqb7fqnsd3wh0000gq/T/tmpACvK60/user log --pretty='%H - %an, %ad : %s'
+0a970eb24e700f4b6d7260453357963fb2002780 - Exam 42, Fri Feb 23 20:14:39 2018 +0100 : faillastwordinvers
+e3c1c4cc13be999d6d75a9336a97fbc919b26df6 - Exam 42, Fri Feb 23 20:14:31 2018 +0100 : faillastwordinvers
+2dee781dd461c079bca80cd78d15ff3274f194db - Exam 42, Fri Feb 23 19:43:28 2018 +0100 : fais de la merde
+91ee133718300ef2c9709d09dcafa4a5b2fff550 - Exam 42, Fri Feb 23 19:31:44 2018 +0100 : failmax.c
+b9281b13dabc65f94f8c440a3faa5c4069ef4a57 - Exam 42, Fri Feb 23 19:21:20 2018 +0100 : rev_print
+47cf7f155494231734a523e53e1b387d63ed1ad4 - Exam 42, Fri Feb 23 19:17:44 2018 +0100 : fail
+91b95caab9d6ddf15e8d03b3be8d28b20ce1ae82 - Exam 42, Fri Feb 23 18:20:13 2018 +0100 : ftcountdown
+cd4b360455c5ad3503c64a3f95131f54851ec597 - Exam 42, Fri Feb 23 18:16:22 2018 +0100 : 1push quesitonnaire
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/c8/3xm0w9px6lz0bqb7fqnsd3wh0000gq/T/tmpACvK60/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1936 Feb 23 20:14 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 23 20:14 ft_countdown
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 23 20:14 last_word
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 23 20:14 max
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 23 20:14 rev_print
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 23 20:14 rotone
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 23 20:14 survey
+drwxr-xr-x  3 deepthought  deepthought   102 Feb 23 20:14 wdmatch
+
+/var/folders/c8/3xm0w9px6lz0bqb7fqnsd3wh0000gq/T/tmpACvK60/user/ft_countdown:
+total 8
+-rw-r--r--  1 deepthought  deepthought  79 Feb 23 20:14 ft_countdown.c
+
+/var/folders/c8/3xm0w9px6lz0bqb7fqnsd3wh0000gq/T/tmpACvK60/user/last_word:
+total 8
+-rw-r--r--  1 deepthought  deepthought  551 Feb 23 20:14 last_word.c
+
+/var/folders/c8/3xm0w9px6lz0bqb7fqnsd3wh0000gq/T/tmpACvK60/user/max:
+total 8
+-rw-r--r--  1 deepthought  deepthought  279 Feb 23 20:14 max.c
+
+/var/folders/c8/3xm0w9px6lz0bqb7fqnsd3wh0000gq/T/tmpACvK60/user/rev_print:
+total 8
+-rw-r--r--  1 deepthought  deepthought  325 Feb 23 20:14 rev_print.c
+
+/var/folders/c8/3xm0w9px6lz0bqb7fqnsd3wh0000gq/T/tmpACvK60/user/rotone:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1018 Feb 23 20:14 rotone.c
+
+/var/folders/c8/3xm0w9px6lz0bqb7fqnsd3wh0000gq/T/tmpACvK60/user/survey:
+total 8
+-rw-r--r--  1 deepthought  deepthought  401 Feb 23 20:14 reponses
+
+/var/folders/c8/3xm0w9px6lz0bqb7fqnsd3wh0000gq/T/tmpACvK60/user/wdmatch:
+total 8
+-rw-r--r--  1 deepthought  deepthought  426 Feb 23 20:14 wdmatch.c
+ 
+= last_word ====================================================================
+$> clang -Wextra -Wall -Werror last_word.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./s3dhh2v1yqek9khxm5hefts8 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./wqdlu041eosng1d8m0oli3io 
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./vp7tbemhkqtwlkeb0dj4z4dv "salut" "a" "tous" "tout" "le" "monde"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./yld3a44g3wi0dsev68w7g4mc "AraX8GqW7gD9Y"
+Command './yld3a44g3wi0dsev68w7g4mc "AraX8GqW7gD9Y"' timed out after 10 seconds
+Grade: 0
+
+= Final grade: 0 ===============================================================

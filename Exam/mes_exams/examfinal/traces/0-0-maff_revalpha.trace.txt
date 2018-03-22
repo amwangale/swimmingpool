@@ -1,0 +1,47 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e6r4p3.vp.42.fr
+Darwin 16.7.0 x86_64
+$> date
+Fri Mar  2 10:09:19 CET 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/piscine-c-exam-final/exam_20180302/wabousfi
+
+= Git history ==================================================================
+$> git -C /var/folders/c3/j2q17b9s235ctnd6k4kc1sz40000gq/T/tmpMHACBi/user log --pretty='%H - %an, %ad : %s'
+10d3b6b1ba5053535889de129ec7ce3efb929e1c - Exam 42, Fri Mar 2 10:09:03 2018 +0100 : level0 8 point
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/c3/j2q17b9s235ctnd6k4kc1sz40000gq/T/tmpMHACBi/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  221 Mar  2 10:09 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Mar  2 10:09 maff_revalpha
+
+/var/folders/c3/j2q17b9s235ctnd6k4kc1sz40000gq/T/tmpMHACBi/user/maff_revalpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  100 Mar  2 10:09 maff_revalpha.c
+ 
+= maff_revalpha ================================================================
+$> gcc -Wextra -Wall -Werror maff_revalpha.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./rmmb8j1aw2si6ap71ua7e1za
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

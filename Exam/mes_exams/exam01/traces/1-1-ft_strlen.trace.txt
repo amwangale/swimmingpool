@@ -1,0 +1,89 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1r2p14.42.fr
+Darwin 16.7.0 x86_64
+$> date
+Fri Feb 16 19:27:31 CET 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.38)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/piscine-c-exam01/exam_20180216/wabousfi
+
+= Git history ==================================================================
+$> git -C /var/folders/b9/r4t_b1rj281bjtnpz1y401f80000gq/T/tmpxuFv9k/user log --pretty='%H - %an, %ad : %s'
+02f7cd78c6be941de7ac8571500e9b371ad6ca15 - Exam 42, Fri Feb 16 19:27:03 2018 +0100 : pushstrlen
+2fdfec5991d38b9844d447ed6899968f6c1d10e3 - Exam 42, Fri Feb 16 19:26:54 2018 +0100 : pushstrlen
+f6d341ed15668d6d18c22120dd7d9a93f25d38af - Exam 42, Fri Feb 16 18:33:07 2018 +0100 : premierpushexam01
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/b9/r4t_b1rj281bjtnpz1y401f80000gq/T/tmpxuFv9k/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  732 Feb 16 19:27 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Feb 16 19:27 aff_a
+drwxr-xr-x  3 deepthought  deepthought  102 Feb 16 19:27 ft_strlen
+
+/var/folders/b9/r4t_b1rj281bjtnpz1y401f80000gq/T/tmpxuFv9k/user/aff_a:
+total 8
+-rw-r--r--  1 deepthought  deepthought  375 Feb 16 19:27 aff_a.c
+
+/var/folders/b9/r4t_b1rj281bjtnpz1y401f80000gq/T/tmpxuFv9k/user/ft_strlen:
+total 8
+-rw-r--r--  1 deepthought  deepthought  106 Feb 16 19:27 ft_strlen.c
+ 
+= ft_strlen ====================================================================
+$> clang -Wextra -Wall -Werror ft_strlen.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./16oayejshl6623uwidequuol ""
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./3fac5eyoskau87ofqmcnyqs2 "	"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./c4xkpztipq9xe5i4yxclkaoy "269Qq"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./6nge6loegtqgg50zm592dpq9 "dH2vbC"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./zj7tq24y479jpaav2u5o1aaw "Ocu4Je1"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./29zzk9xnlqoegcwqanfcccgq "o8asBD jh14qsOl6HMB J85yCd2qG9AwOFeQ Vk8lGC6tq4 SOZ2 QpAXrfzG5lc"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./24r4idxu3lslhc2zozclj1va "awAh Q1r BDLvgHb6 67JHMvwSVcKe nktGNPMqBC9 zqd EdACKci0DuBO IYXHDo5p1k6c0fSvy 1zNkWBTUbSo 3HrxGh1mDSuJ uB5gLSsV9zUWHp Dp0dOUNA IiK 4sOx8kSqDe bzuZsS1UxK"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./0t3ga4ji454om72v5cb8899e "7wd6XWN8B kN23ofmV4r0t5 FGCaBThE4HYPA6R SG6B7x2UAiV 69dhN8C"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

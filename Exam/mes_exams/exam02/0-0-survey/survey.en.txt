@@ -1,0 +1,111 @@
+****START****
+
+SURVEY
+You are about to start a brief survey. Its purpose is to understand how you interact with other students during the Piscine. This survey is organized independently by a group of university researchers. No personal information will be used for any purpose other than data analysis and global statistics.
+
+- Please focus only on the interactions you had during this last week.
+
+- THE ANSWERS YOU PROVIDE ARE NOT GOING TO AFFECT YOUR PERFORMANCE ON THE EXAM. There is no "right" or "wrong" answer: please select the answer that you think describes your case better.
+
+- PLEASE DO NOT SPEND MORE THAN 15 MINUTES ON THE SURVEY. If you have not finished after 15 minutes, please submit the survey even if it is not completed. 
+
+
+- Please use the file called "reponses" for the answers. You must have only 1 response per line, next to the question number. Ex :
+
+1.a.1:5
+1.a.2:4,25
+1.b.1:2
+1.b.2:2,50
+...
+
+
+--------------------------------------------------------------------------------
+
+
+********************************** QUESTION #1 *********************************
+Over the last week at the Piscine:
+
+1.a.1 How many students have you spent your free time with? (e.g. have lunch/dinner/drinks together)
+1.a.2 On average, for how long? (hours, minutes)
+
+1.b.1 How many students have you asked for advice to? (e.g. if you had a question or ran into project-related problem)
+1.b.2 On average, for how long? (hours, minutes)
+
+1.c.1 How many students have you given advice to? (e.g. if they had a question or ran into a project-related problem)
+1.c.2 On average, for how long? (hours, minutes)
+
+1.d.1 If we exclude the students you have interacted with for the activities described above (points a-b-c), how many other students have you talked to? (e.g. those you have accidentally met during a break)
+1.d.2 On average, for how long? (hours, minutes)
+
+
+********************************** QUESTION #2 *********************************
+Think about the student you have SPENT MOST OF YOUR FREE TIME with over the last week:
+
+2.a Login (or first and last name if login is unknown):
+2.b Main quality:
+2.c Main default:
+2.d Estimate of free time you have spent together over the last week: (hours, minutes)
+2.e Expertise in coding (choose one among: Beginner / Intermediate / Advanced / Unknown):
+2.f Areas of expertise in coding compared to yours (choose one among: Similar / Different / Unknown):
+2.g Interests in general compared to yours (choose one among: Similar / Different / Unknown):
+
+
+********************************** QUESTION #3 *********************************
+Think about the student you have ASKED FOR ADVICE the most over the last week (there might or might not be overlap with the student listed above):
+
+3.a Login (or first and last name if login is unknown):
+3.b Main quality:
+3.c Main default:
+3.d Estimate of time spent with this student as he gave advice to you over the last week: (hours, minutes)
+3.e Expertise in coding (choose one among: Beginner / Intermediate / Advanced / Unknown): 
+3.f Areas of expertise in coding compared to yours (choose one among: Similar / Different / Unknown ): 
+3.g Interests in general compared to yours (choose one among: Similar / Different / Unknown): 
+
+
+********************************** QUESTION #4 *********************************
+Think about the student you have GIVEN ADVICE the most over the last week (there might or might not be overlap with the students listed above):
+
+4.a Login (or first and last name if login is unknown):
+4.b Main quality:
+4.c Main default:
+4.d Estimate of time spent with this student as you gave advice to him over the last week: (hours, minutes)
+4.e Expertise in coding (choose one among: Beginner / Intermediate / Advanced / Unknown): 
+4.f Areas of expertise in coding compared to yours (choose one among: Similar / Different / Unknown ): 
+4.g Interests in general compared to yours (choose one among: Similar / Different / Unknown):
+
+
+********************************************************************************
+- IF YOU ALREADY ANSWERED QUESTIONS #5-#10 DURING THE FIRST EXAM, PLEASE DO NOT ANSWER THEM AGAIN. In this case, you have now completed the survey.
+
+
+********************************** QUESTION #5 *********************************
+5.a Your current postal code:
+5.b Your previous postal code (before joining the Piscine):
+5.c If outside France, please specify country:
+
+
+********************************** QUESTION #6 *********************************
+6.a Highest degree or level of school you have completed (choose one among: Brevet des colleges / Baccalaureat / Diplome de niveau Bac + 2: BTS, DUT / Diplome de niveau Bac + 3: Licence / Diplome de niveau Bac + 5: Master, Diplome des grandes écoles, Diplome d'ingenieur / Doctorat):
+6.b If you studied outside France, please specify country:
+6.c If you studied outside France, please specify the original name of the degree:
+
+
+********************************** QUESTION #7 *********************************
+7.a Have you ever worked before joining the Piscine (choose one between: YES / NO)?
+7.b If you answered "yes" to the previous question, please list all the occupations and the respective time windows (example: cook, December 2015-December 2016; bartender, January-March 2017; etc):
+
+
+********************************** QUESTION #8 *********************************
+8. What level of programming would you say you had before joining the Piscine? (choose one among: None / Beginner / Elementary / Intermediate / Upper intermediate / Advanced / Proficient):
+
+
+********************************** QUESTION #9 *********************************
+9. How many programming languages (e.g. SQL, C++, Python, Java, etc.) were you familiar with before joining the Piscine? (choose one among: 0 / 1 / 2 / 3 / 4+):
+
+
+********************************** QUESTION #10 ********************************
+10.a Have you ever received formal training in programming before joining the Piscine? (choose one between: YES / NO):
+10.b If you answered "yes" to the previous question, please list all the training programs and the respective time windows (example: Java course, December 2016-February 2017; Python course, April-June 2017; etc):
+
+
+****END****

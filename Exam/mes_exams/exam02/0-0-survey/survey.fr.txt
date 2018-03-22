@@ -1,0 +1,111 @@
+****DEBUT****
+
+SONDAGE
+Vous allez maintenant répondre a un sondage. Son objectif est de comprendre comment vous interagissez avec les autres étudiants pendant la Piscine. Ce sondage est organise de manière indépendante par un groupe de chercheurs universitaires. Aucune information personnelle ne sera utilisée dans un but autre que l'analyse des données et des statistiques générales.
+
+- Veuillez considérer uniquement les interactions que vous avez eues pendant la dernière semaine.
+
+- VOS RÉPONSES N'AFFECTERONT PAS VOTRE PERFORMANCE À L'EXAMEN. Il n'y a pas de "bonne" ou de "mauvaise" réponse : veuillez indiquer les réponses décrivant le mieux votre situation.
+
+- VEUILLEZ NE PAS PRENDRE PLUS DE 15 MINUTES POUR RÉPONDRE AU QUESTIONNAIRE. Si vous n'avez pas terminé après 15 minutes, veuillez soumettre le questionnaire même s'il n'est pas complet.
+
+
+- Veuillez utiliser le fichier nommé "reponses" pour indiquer vos réponses. Vous ne devez pas indiquer plus d'une réponse par ligne, a cote du numéro de la question. Ex :
+
+1.a.1:5
+1.a.2:4,25
+1.b.1:2
+1.b.2:2,50
+...
+
+
+--------------------------------------------------------------------------------
+
+
+********************************** QUESTION #1 *********************************
+Pendant la dernière semaine a la Piscine :
+
+1.a.1 Avec combien d'étudiants avez-vous passé votre temps libre? (e.g. déjeuner/d”ner/prendre un verre ensemble)
+1.a.2 Pendant combien de temps en moyenne? (heures, minutes)
+
+1.b.1 Combien d'étudiants avez-vous demande des conseils? (e.g. si vous aviez une question ou étiez confronte a un problème lie a un projet)
+1.b.2 Pendant combien de temps en moyenne? (heures, minutes)
+
+1.c.1 Combien d'étudiants avez-vous donné des conseils? (e.g. si ils avaient une question ou étaient confrontes a un problème lie a un projet)
+1.c.2 Pendant combien de temps en moyenne? (heures, minutes)
+
+1.d.1 Si nous excluons les étudiants avec lesquels vous avez interagi dans le cadre des activités mentionnes ci-dessus (points a-b-c), a combien d'autres étudiants avez-vous parle? (e.g. ceux que vous rencontrez par hasard lors d'une pause)
+1.d.2 Pendant combien de temps en moyenne? (heures, minutes)
+
+
+********************************** QUESTION #2 *********************************
+Pensez à l'étudiant avec lequel vous avez PASSE LA PLUS GRANDE PARTIE DE VOTRE PARTIE DE VOTRE TEMPS LIBRE pendant la semaine dernière :
+
+2.a Login (ou prénom et nom si vous ne connaissez pas son login) :
+2.b Qualité principale :
+2.c Défaut principal :
+2.d Estimation du temps libre que vous avez passé ensemble pendant la dernière semaine : (heures, minutes)
+2.e Expertise en programmation (choisissez une réponse parmi : Débutant / Intermédiaire / avancé / Je ne sais pas) :
+2.f Domaines d'expertise en programmation en comparaison aux vôtres (choisissez une réponse parmi : Similaires / Différents / Je ne sais pas) :
+2.g Intérèts généraux en comparaison aux vôtres (choisissez une réponse parmi : Similaires / Différents / Je ne sais pas) :
+
+
+********************************** QUESTION #3 *********************************
+Pensez à l'étudiant auquel vous avez DEMANDE LE PLUS DE CONSEILS pendant la semaine dernière (il est possible que cet étudiant soit le mème que celui que vous avez identifié ci-dessus) :
+
+3.a Login (ou prénom et nom si vous ne connaissez pas son login) :
+3.b Qualité principale :
+3.c Défaut principal :
+3.d Estimation du temps que vous avez passé avec cet étudiant alors qu'il vous donnait des conseils pendant la dernière semaine : (heures, minutes)
+3.e Expertise en programmation (choisissez une réponse parmi : Débutant / Intermédiaire / Avancé / Je ne sais pas) :
+3.f Domaines d'expertise en programmation en comparaison aux vôtres (choisissez une réponse parmi : Similaires / Différents / Je ne sais pas) :
+3.g Intérèts généraux en comparaison aux vôtres (choisissez une réponse parmi : Similaires / Différents / Je ne sais pas) :
+
+
+********************************** QUESTION #4 *********************************
+Pensez à l'étudiant auquel vous avez DONNE LE PLUS DE CONSEILS pendant la semaine dernière (il est possible que cet étudiant soit un de ceux que vous avez identifiés ci-dessus) :
+
+4.a Login (ou prénom et nom si vous ne connaissez pas son login) :
+4.b Qualité principale :
+4.c Défaut principal :
+4.d Estimation du temps que vous avez passé avec cet étudiant alors que vous lui donniez des conseils pendant la dernière semaine : (heures, minutes)
+4.e Expertise en programmation (choisissez une réponse parmi : Débutant / Intermédiaire / Avancé / Je ne sais pas) :
+4.f Domaines d'expertise en programmation en comparaison aux vôtres (choisissez une réponse parmi : Similaires / Différents / Je ne sais pas) :
+4.g Intérèts généraux en comparaison aux vôtres (choisissez une réponse parmi : Similaires / Différents / Je ne sais pas) :
+
+
+********************************************************************************
+- SI VOUS AVEZ DÉJÀ RÉPONDU AUX QUESTIONS #5-#10 LORS DU PREMIER EXAMEN, VEUILLEZ NE PAS Y RÉPONDRE À NOUVEAU. Dans ce cas, vous avez maintenant complété le questionnaire.
+
+
+********************************** QUESTION #5 *********************************
+5.a Votre code postal actuel :
+5.b Votre code postal précédent (avant de rejoindre la Piscine) :
+5.c Si vous habitiez a l'extérieur de la France, veuillez spécifier le pays :
+
+
+********************************** QUESTION #6 *********************************
+6.a Plus haut diplômé ou niveau d'éducation complète (choisissez une réponse parmi : Brevet des collèges / Baccalauréat / Diplôme de niveau Bac + 2 : BTS, DUT / Diplôme de niveau Bac + 3 : Licence / Diplôme de niveau Bac + 5 : Master, Diplômé des grandes écoles, Diplômé d'ingénieur / Doctorat) :
+6.b Si vous avez étudié a l'extérieur de la France, veuillez spécifier le pays :
+6.c Si vous avez étudié a l'extérieur de la France, veuillez spécifier le nom original du diplôme :
+
+
+********************************** QUESTION #7 *********************************
+7.a Aviez-vous déjà travaillé avant de rejoindre la Piscine? (choisissez une réponse parmi : OUI / NON) :
+7.b Si vous avez répondu "oui" a la question précédente, veuillez indiquer toutes les occupations et les périodes respectives (exemple : cuisinier, décembre 2015-décembre 2016; barman, janvier-mars 2017; etc) :
+
+
+********************************** QUESTION #8 *********************************
+8. Selon vous, quel niveau de programmation aviez-vous avant de rejoindre la Piscine? (choisissez une réponse parmi : Aucune / Débutant / Elémentaire / Intermédiaire / Intermédiaire supérieur / Avancé / Expérimenté) :
+
+
+********************************** QUESTION #9 *********************************
+9. Vous étiez familier avec combien de langages de programmation (e.g. SQL, C++, Python, Java, etc.) avant de rejoindre la Piscine? (choisissez une réponse parmi : 0 / 1 / 2 / 3 / 4+) :
+
+
+********************************** QUESTION #10 ********************************
+10.a Aviez-vous déjà suivi une formation en programmation avant de rejoindre la Piscine? (choisissez une réponse parmi : OUI / NON) :
+10.b Si vous avez répondu "oui" à la question précédente, veuillez indiquer tous les programmes de formation et les périodes respectives (exemple : cours sur Java, décembre 2016-fevrier 2017; cours sur Python, avril-juin 2017; etc) :
+
+
+****FIN****
