@@ -1,36 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_ultimate_div_mod.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: wabousfi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/02/06 01:27:54 by wabousfi          #+#    #+#             */
-/*   Updated: 2018/02/11 02:38:33 by wabousfi         ###   ########.fr       */
+/*   Created: 2018/02/06 01:42:30 by wabousfi          #+#    #+#             */
+/*   Updated: 2018/02/06 01:42:30 by wabousfi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
-
-void	ft_putnbr(int nb)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
-	if (nb == -2147483648)
-	{
-		ft_putchar('-');
-		ft_putchar('2');
-		ft_putnbr(147483648);
-		return ;
-	}
-	if (nb < 0)
-	{
-		ft_putchar('-');
-		nb = -nb;
-	}
-	if (nb >= 10)
-	{
-		ft_putnbr(nb / 10);
-		ft_putchar(nb % 10 + '0');
-	}
-	else
-		ft_putchar(nb + '0');
+	int	temp;
+
+	temp = *a;
+	*a = *a / *b;
+	*b = temp % *b;
 }

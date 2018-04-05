@@ -1,40 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: wabousfi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/02/11 06:57:09 by wabousfi          #+#    #+#             */
-/*   Updated: 2018/02/11 06:59:10 by wabousfi         ###   ########.fr       */
+/*   Created: 2018/02/06 01:42:43 by wabousfi          #+#    #+#             */
+/*   Updated: 2018/02/06 01:42:44 by wabousfi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
-
-void	ft_print_comb2(void)
+int	ft_strlen(char *str)
 {
-	int		a;
-	char	begin;
-	char	end;
+	int i;
 
-	a = 0;
-	while (a++ < 9899)
-	{
-		begin = a / 100;
-		end = a % 100;
-		if (begin < end)
-		{
-			if (a != 1)
-			{
-				ft_putchar(',');
-				ft_putchar(' ');
-			}
-			ft_putchar('0' + begin / 10);
-			ft_putchar('0' + begin % 10);
-			ft_putchar(' ');
-			ft_putchar('0' + end / 10);
-			ft_putchar('0' + end % 10);
-		}
-	}
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }

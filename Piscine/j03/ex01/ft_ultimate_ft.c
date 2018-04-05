@@ -1,25 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: wabousfi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/02/06 01:27:22 by wabousfi          #+#    #+#             */
-/*   Updated: 2018/02/07 21:18:22 by wabousfi         ###   ########.fr       */
+/*   Created: 2018/02/06 01:42:18 by wabousfi          #+#    #+#             */
+/*   Updated: 2018/02/06 01:42:19 by wabousfi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
-
-void	ft_is_negative(int n)
+void	ft_ultimate_ft(int *********nbr)
 {
-	if (n < 0)
-	{
-		ft_putchar('N');
-	}
-	else
-	{
-		ft_putchar('P');
-	}
+	*********nbr = 42;
 }
